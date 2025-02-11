@@ -5,8 +5,8 @@ import qualityImage1 from "../assets/about-best-cost.png";
 import qualityImage2 from "../assets/about-best-quality.png";
 import qualityImage3 from "../assets/about-best-rated.png";
 import aboutCompanyBanner from "../assets/about-banner.png";
-import director1 from "../assets/Director1.jpg";
-import director2 from "../assets/Director2.jpg";
+import director1 from "../assets/worker.webp";
+import director2 from "../assets/worker2.avif";
 
 export default function AboutUsPage() {
   return (
@@ -21,24 +21,26 @@ export default function AboutUsPage() {
             </h3>
             <div className="about-company-info-para">
               <p>
-                Welcome to Sahyadri Developement constructors LLP(formerly known
-                as Tarangan Associates), where a legacy of over two decades
-                defines our commitment to excellence in construction. For more
-                than 20 years, we've been shaping environments, exceeding
-                expectations, and crafting enduring structures. Our highly
-                skilled team, comprised of seasoned architects, engineers, and
-                craftsmen, forms the heartbeat of SDC.
+                Welcome to Uttara Construction, where a commitment to excellence
+                and innovation drives everything we build. With a strong
+                foundation in the construction industry, we have been shaping
+                environments, exceeding expectations, and delivering
+                high-quality structures that stand the test of time. Our team of
+                highly skilled architects, engineers, and craftsmen is dedicated
+                to bringing expertise, precision, and creativity to every
+                project.
                 <br />
-                At SDC, we pride ourselves on a diverse portfolio that spans
-                residential and commercial developments, showcasing the depth of
-                our capabilities. Our journey is marked by a dedication to
-                innovation, integrity, and unwavering client satisfaction,
-                earning us a stellar reputation in the construction landscape.
+                At Uttara Construction, we take pride in our diverse portfolio,
+                which spans residential, commercial, and industrial
+                developments, reflecting our ability to turn visions into
+                reality. Our journey is defined by integrity, innovation, and an
+                unwavering focus on client satisfaction, earning us a trusted
+                reputation in the construction industry.
                 <br />
-                As we reflect on our 20+ years of service, our commitment to
-                pushing the boundaries of construction remains unwavering. We
-                embrace new technologies, set new standards for excellence, and
-                invite you to join us on a journey where experience meets
+                As we continue to grow, our commitment to quality, efficiency,
+                and cutting-edge construction technologies remains at the core
+                of our work. We strive to set new benchmarks for excellence and
+                invite you to partner with us on a journey where expertise meets
                 innovation.
                 <br />
               </p>
@@ -91,23 +93,26 @@ export default function AboutUsPage() {
       </section>
 
       <h3>
-        <span className="yellow-text">Director's</span> Words of Wisdom
+        <span className="yellow-text">The Strength of </span>Uttara Construction
       </h3>
 
-      <div  className="dirctor-message-container">
+      <div className="dirctor-message-container">
         <div className="directors-message">
           <h4 className="director-name">
-            Mr. Pravin Patil <span className="position">- Director</span>{" "}
+            Skilled & Trained Workforce{" "}
+            <span className="position">- Certified</span>{" "}
           </h4>
           <p>
-            "In my capacity as Director at SDC, my foremost mission is to chart
-            a course of excellence, originality, and client fulfillment. We are
-            devoted to constructing not merely buildings but enduring spaces
-            that transcend expectations. From our inaugural venture to each
-            subsequent project, we aim to redefine our industry benchmarks,
-            earning SDC a reputation for quality and innovation. I am committed
-            to fostering a workplace culture that prizes the skills, creativity,
-            and well-being of our team members."
+            "At Uttara Construction, we believe that a strong foundation starts
+            with a highly skilled and trained workforce. Our team consists of
+            certified engineers, experienced architects, expert masons,
+            electricians, plumbers, carpenters, and heavy machinery operators,
+            all dedicated to delivering the highest standards of construction
+            excellence. We invest in continuous training programs to keep our
+            workers updated on modern construction techniques, safety protocols,
+            and the latest industry innovations. This ensures that every project
+            we undertake meets strict quality standards, durability, and
+            precision."
           </p>
         </div>
         <div className="directors-image">
@@ -117,17 +122,17 @@ export default function AboutUsPage() {
       <div className="dirctor-message-container">
         <div className="directors-message">
           <h4 className="director-name">
-            Mr. Mandar Mate<span className="position">- Director</span>{" "}
+            Why Our Trained Workforce Matters<span className="position"></span>{" "}
           </h4>
           <p>
-            "In my role as the Director at SDC, I am dedicated to steering our
-            vision with a focus on ingenuity, collaboration, and client triumph.
-            Our mission is to revolutionize construction norms, delivering
-            influential projects that showcase our unwavering commitment.
-            Together, we're crafting a lasting legacy of distinction, reshaping
-            environments, and ensuring SDC stands as a beacon of inventive
-            solutions and trust in the construction landscape. Let's embark on
-            this journey of excellence."
+            "Our commitment to maintaining a safe and efficient work environment
+            enables us to handle projects of all scales—whether it’s
+            residential, commercial, or industrial construction. By adhering to
+            international best practices, we ensure that our workforce is always
+            ready to build a stronger, safer, and more sustainable future. With
+            Uttara Construction, you can trust that your project is in the hands
+            of trained professionals who bring expertise, dedication, and
+            craftsmanship to every construction endeavor."
           </p>
         </div>
         <div className="directors-image">

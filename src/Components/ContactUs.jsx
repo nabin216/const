@@ -26,22 +26,16 @@ export default function ContactUs() {
     <>
       <Title content="Contact Us" />
       <div className="contact-boxes">
-        <ContactBox
-          imageSrc={phone}
-          heading="Phone"
-          info="+91 99875 56874,  +91 99875 55877"
-        />
+        <ContactBox imageSrc={phone} heading="Phone" info="+01630715744" />
         <ContactBox
           imageSrc={email}
           heading="Email"
-          info="admin@sahyadri.com"
+          info="constructionuttara@gmail.com"
         />
         <ContactBox
           imageSrc={location}
           heading="Location"
-          info="Flat No.803, Building B, Madhuvanti,
-        Sinhagad Road, Nandedcity,
-        Pune 411041."
+          info="House-17, Road-18, Sector-07, Uttara, Dhaka-1230, Bangladesh."
         />
       </div>
       <div className="business-contact">
@@ -53,7 +47,7 @@ export default function ContactUs() {
             <span className="yellow-text">BUSINESS </span>ENQUIRY
           </h3>
           <div className="input">
-          <div id="textInput1">
+            <div id="textInput1">
               <input type="text" placeholder="Enter Name" />
             </div>
             <div id="phoneInput">
@@ -64,20 +58,19 @@ export default function ContactUs() {
               <input type="email" placeholder="Enter email address" />
             </div>
 
-            
-
             <div id="textInput2">
               <input type="text" placeholder="Enter Message" />
             </div>
-            <button type="submit" className="submitButton">Submit</button>
+            <button type="submit" className="submitButton">
+              Submit
+            </button>
           </div>
         </div>
       </div>
       <div className="map">
-      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.613508281609!2d73.78436311078141!3d18.455849308914182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc29598fdbfdc63%3A0x1b56e0dfe786b471!2sMadhuvanti%20Society!5e0!3m2!1sen!2sin!4v1703229941958!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-      <img src={map} alt="" />
-</div>
-
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.613508281609!2d73.78436311078141!3d18.455849308914182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc29598fdbfdc63%3A0x1b56e0dfe786b471!2sMadhuvanti%20Society!5e0!3m2!1sen!2sin!4v1703229941958!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+        <img src={map} alt="" />
+      </div>
     </>
   );
 }

@@ -23,7 +23,7 @@ function Navbar() {
             className="d-inline-block align-top "
             alt=""
           /></div>
-          <div className='logo-name'>Sahyadri LLP <br /><span>Formely Tarangan Associates</span></div>
+          <div className='logo-name'>UTTARA CONSTRUCTION <br /><span>Build Your Future</span></div>
           </div>
           
         </a>

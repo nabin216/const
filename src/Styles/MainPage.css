@@ -12,12 +12,26 @@
 }
 .main-container-content{
     margin-left: 5vw;
-    width: 30vw;
+    width: 40vw;
 }
-.main-container-content h2{
-    font-size: clamp(48px, 4vw, 24px);
+/* .main-container-content h2{
     
+    
+} */
+
+.main-container-content h1{
+    align-items: center;
+    color: #FFA500;
+    font-size: clamp(24px, 4vw, 48px);
+    font-weight: bold;
 }
+
+@media (max-width: 1200px) {
+    .main-container-content h1{
+        font-size: 2rem;
+    }
+}
+
 .read-more-button{
 margin-top: 1rem;
 border-radius: 0.375rem;

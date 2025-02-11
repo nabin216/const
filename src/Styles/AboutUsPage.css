@@ -78,6 +78,7 @@ text-transform: uppercase;
 .directors-image img{
     width: 50vw;
     height: 35vw;
+    padding-right: 5px;
 }
 .director-name{
     font-size: 2rem;
